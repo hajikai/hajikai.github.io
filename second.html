@@ -5,15 +5,22 @@
   </head>
 <body>
 <div id="Linkit">
-<a href="index.html">Index</a>
-<a href="second.html">Toinen sivu</a>
+<a class="linkki" href="index.html">Index</a>
+<a class="linkki" href="second.html">Toinen sivu</a>
 </div>
 <h1>Toinen sivu</h1>
-<br>
+
+<p>Tällä toisella sivulla on hieman kuvia sekä kurssin edistystä mittaava mittari.</p>
 <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600" />
 <figure>
     <img src="workplace.jpg" alt="Workplace" width="400" height="379" />
     <figcaption>Työpaikka</figcaption>
 </figure>
+<div id="mittari">
+<label for="edistys">Kurssin eteneminen</label>
+<br>
+<progress id="edistys" value="33" max="100">33%</progress>
+</div>
+<br>
   </body>
 </html>

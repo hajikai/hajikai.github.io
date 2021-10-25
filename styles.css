@@ -1,14 +1,23 @@
 body {
-    background-color: black;
+    background-color: rgb(179, 179, 179);
     color: white;
   }
 h1 {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: thistle;
+    text-shadow: 2px 2px gray;
 }
 p {
     font-size: 12px;
-    color: green;
+    color: white;
+    background-color: thistle;
+    border: 2px solid white;
+    padding: 3px;
+    border-radius: 15px;
+    text-shadow: 2px 2px gray;
 }
 .div {
     border: 2px dotted;
@@ -20,9 +29,47 @@ p {
     top: 0;
     left: 0;
 }
+.linkki {
+    font-size: 12px;
+    color: white;
+    background-color: thistle;
+    border: 2px solid white;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 15px; 
+}
 ol {
     list-style-type: lower-alpha;
 }
 ul {
     list-style-type: square;
+}
+
+img {
+    background-color: thistle;
+    border: 2px solid white;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 20px;
+}
+figure {
+    width: 45%;
+}
+figcaption {
+    font-size: 12px;
+    color: white;
+    background-color: thistle;
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 15px;
+}
+#mittari {
+    position: absolute;
+    left: 17%;
+    background-color: thistle;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 15%;
+
 }
