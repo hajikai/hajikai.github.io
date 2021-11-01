@@ -17,26 +17,29 @@ h2 {
     border-radius: 20px;
     background-color: thistle;
     text-shadow: 2px 2px gray;
+    padding: 5px;
+    width: 30%;
 }
 p {
     font-size: 12px;
     color: white;
     background-color: thistle;
     border: 2px solid white;
-    padding: 3px;
+    padding: 5px;
     border-radius: 15px;
     text-shadow: 2px 2px gray;
+    width: 30%;
+}
+
+a:hover {
+    color: red;
 }
 .div {
     border: 2px dotted;
     width: 100px;
     height: 100px;
 }
-#linkit {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+
 .linkki {
     font-size: 12px;
     color: white;
@@ -72,12 +75,66 @@ figcaption {
     border-radius: 15px;
 }
 #mittari {
-    position: absolute;
-    left: 17%;
     background-color: thistle;
     border: 2px solid white;
-    padding: 10px;
-    margin: 2px;
-    border-radius: 15%;
-
+    padding: 10px 10px 10px 10px;
+    margin: 2px 2px 2px 40px;
 }
+
+header {
+    float: top;
+    padding: 20px;
+    background-color: teal;
+    border: 2px solid white;
+}
+
+nav {
+    float: top;
+    padding: 20px;
+    background-color: teal;
+    border: solid white;
+    border-width: 0px 2px 0px 2px;
+}
+
+section {
+    background-color: teal;
+    border: 2px solid white;
+    padding: 20px;
+    
+}
+
+footer {
+    float: bottom;
+    background-color: teal;
+    border: solid white;
+    border-width: 0px 2px 2px 2px;
+    text-align: center;
+}
+
+#left {
+    float:left;
+    width: 10%;
+    padding: 20px 26px 20px 20px;
+    border: 2px solid white;
+    background-color: teal;
+    height: 500px;
+}
+
+nav ul { list-style-type: none; }
+nav a { text-decoration: none; }
+
+
+#right {
+    position: relative; 
+    float:right;
+    width: 85%;
+    padding: 20px;
+    background-color: teal;
+    border: 2px solid white;
+    height: 500px;
+    
+}
+
+
+
+  
