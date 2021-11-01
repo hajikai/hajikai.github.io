@@ -101,11 +101,16 @@ nav {
     border-width: 0px 2px 0px 2px;
 }
 
+main {
+    border: solid white;
+    border-width: 2px 2px 0px 2px;
+}
+
 section {
     background-color: teal;
     border: 2px solid white;
     width: 100%;
-    padding: 0px;
+    padding: 20px;
     margin: 0px;
 }
 
