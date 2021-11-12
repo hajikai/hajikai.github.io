@@ -16,7 +16,7 @@ a {
     border: 2px solid black;
     padding: 2px;
 }
-header {
+.kuva {
     background-color: #FFECCF;
     height: 483px;
     text-align: center;
@@ -25,7 +25,7 @@ header {
     border-width: 2px 2px 0px 2px;
     background-image: url(https://hajikai.github.io/amdvsintel3.jpg);
 }
-/* background-image:url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f20a59c264b07d88cf2b4c1%2FIntel-processor-chips-come-off-the-manufacturing-line-%2F960x0.jpg%3FcropX1%3D0%26cropX2%3D3108%26cropY1%3D289%26cropY2%3D2036"); */
+
 nav {
     background-color: #E4C9A1;
     padding: 10px;
@@ -40,7 +40,7 @@ nav {
 }
 footer {
     background-color: #E4C9A1;
-    padding: 10px;
+    padding: 1px;
     border: solid black;
     border-width: 0px 2px 2px 2px;
     text-align: center;
