@@ -45,3 +45,14 @@ footer {
     border-width: 0px 2px 2px 2px;
     text-align: center;
 }
+
+table, td, th, tbody {
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+caption {
+    display: table-caption;
+    text-align: center;
+  }
