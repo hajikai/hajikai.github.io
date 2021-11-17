@@ -16,6 +16,13 @@ h1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    color: pink;
+    text-shadow: black;
+}
+caption {
+    font-weight: bolder;
+    color: pink;
+    font-style: italic;
 }
 table {
     margin-left: auto;
