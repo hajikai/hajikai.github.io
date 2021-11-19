@@ -4,11 +4,14 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
-
 h1 {
     color: black;
 }
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+  }
 
 a {
     font-size: medium;
@@ -27,7 +30,6 @@ a {
     background-image: url(https://hajikai.github.io/amdvsintel3.jpg);
     background-position: center;
 }
-
 nav {
     background-color: #E4C9A1;
     padding: 10px;
@@ -47,7 +49,9 @@ footer {
     border-width: 0px 2px 2px 2px;
     text-align: center;
 }
-
+.card {
+    float: none;
+}
 table, td, th, tbody {
     border: 1px solid;
     border-collapse: collapse;
