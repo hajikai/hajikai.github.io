@@ -1,0 +1,37 @@
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: black;
+      color: white;
+    }
+  }
+  
+
+
+#box {
+    border: 1px solid gray;
+    padding: 10px;
+    box-shadow: 5px 10px greenyellow;
+}
+h1 {
+    text-shadow: 2px 2px greenyellow;
+  }
+#box2 {
+    background-size: cover;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px greenyellow;
+    height: 600px;
+    background-image: url(https://cdn.shopify.com/s/files/1/1618/6763/products/small-tree_1200x1200.png?v=1542954861);
+}
+#box3 {
+    border: 1px solid gray;
+    padding: 10px;
+    box-shadow: 5px 10px greenyellow;
+}
+a {
+    transition-property: color;
+    transition-duration: 2s;
+}
+a:hover {
+    color: red;
+}
