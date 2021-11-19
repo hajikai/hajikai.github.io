@@ -7,9 +7,14 @@ body {
 h1 {
     color: black;
 }
-@media screen and (max-width: 800px) {
-    body {
-        width: 100%;
+@media screen and (max-width: 600px) {
+    .img {
+      float: none;
+      width: 100%;
+    }
+    .card {
+        
+        width: 20px%;
     }
   }
 
@@ -49,9 +54,7 @@ footer {
     border-width: 0px 2px 2px 2px;
     text-align: center;
 }
-.card {
-    float: none;
-}
+
 table, td, th, tbody {
     border: 1px solid;
     border-collapse: collapse;
