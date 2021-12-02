@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
   }
 
 * {
@@ -121,5 +122,8 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+#list-example {
+  position: relative;
+}
 
 

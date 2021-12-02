@@ -25,10 +25,10 @@
     </header>
     <nav>
         <div class="topnav">
-            <a href="index2.html">HTML & CSS</a>
-            <a href="#">HTML</a>
-            <a href="#">CSS</a>
-            <a href="#">Bootstrap</a>
+            <a href="index.html">HTML & CSS</a>
+            <a href="html.html">HTML</a>
+            <a href="CSS.html">CSS</a>
+            <a href="bootstrap.html">BOOTSTRAP</a>
         </div>
     </nav>
     <section id="section">
@@ -45,7 +45,7 @@
                         <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph",
                             "this is a link", etc.</li>
                     </ul>
-                </div>
+                </div> 
                 <div class="intro">
                     <strong>What is an HTML element?</strong><br><br>
                     <p>An HTML element is defined by a start tag, some content, and an end tag:</p>
@@ -61,6 +61,7 @@
                 </div>
                 <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example"
                     tabindex="0">
+                    <br>
                     <h4 id="list-item-1">HTML Links</h4>
                     <p>HTML links are hyperlinks. You can click on a link and jump to another document. When you move
                         the mouse over a link, the mouse arrow will turn into a little hand.
@@ -306,5 +307,9 @@
     </footer>
 
 </body>
-
+<script>
+    var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#list-example'
+})
+</script>
 </html>
